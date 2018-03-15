@@ -7273,3 +7273,19 @@ Request: POST /EC-efirsa/public_html/en/ajax/checkout_summary.html HTTP/1.1
 Client: ::1 (localhost)
 User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
 
+[15-Mar-2018 16:44:41 America/Mexico_City] Warning: include(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/templates/default.catalog//pages/index_landing2.inc.php): failed to open stream: No such file or directory in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/ HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:44:41 America/Mexico_City] Warning: include(): Failed opening '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/templates/default.catalog//pages/index_landing2.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/ HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
