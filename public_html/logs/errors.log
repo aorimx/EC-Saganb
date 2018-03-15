@@ -7289,3 +7289,390 @@ Request: GET /EC-Saganb/public_html/en/ HTTP/1.1
 Client: ::1 (localhost)
 User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
 
+[15-Mar-2018 16:58:52 America/Mexico_City] Warning: array_map(): Argument #2 should be an array in ~/includes/controllers/ctrl_product.inc.php on line 196
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?category_id=0&app=catalog&doc=edit_product HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:58:53 America/Mexico_City] Warning: array_filter() expects parameter 1 to be array, null given in ~/includes/controllers/ctrl_product.inc.php on line 197
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?category_id=0&app=catalog&doc=edit_product HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:58:53 America/Mexico_City] Warning: array_unique() expects parameter 1 to be array, null given in ~/includes/controllers/ctrl_product.inc.php on line 198
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?category_id=0&app=catalog&doc=edit_product HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:58:53 America/Mexico_City] Warning: implode(): Invalid arguments passed in ~/includes/controllers/ctrl_product.inc.php on line 213
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?category_id=0&app=catalog&doc=edit_product HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:59:06 America/Mexico_City] Warning: array_map(): Argument #2 should be an array in ~/includes/controllers/ctrl_product.inc.php on line 196
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?app=catalog&doc=edit_product&category_id=0&product_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:59:06 America/Mexico_City] Warning: array_filter() expects parameter 1 to be array, null given in ~/includes/controllers/ctrl_product.inc.php on line 197
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?app=catalog&doc=edit_product&category_id=0&product_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:59:06 America/Mexico_City] Warning: array_unique() expects parameter 1 to be array, null given in ~/includes/controllers/ctrl_product.inc.php on line 198
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?app=catalog&doc=edit_product&category_id=0&product_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 16:59:06 America/Mexico_City] Warning: implode(): Invalid arguments passed in ~/includes/controllers/ctrl_product.inc.php on line 213
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /EC-Saganb/public_html/admin/?app=catalog&doc=edit_product&category_id=0&product_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:00:14 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method mod_order::update() in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/controllers/ctrl_order.inc.php:454
+Stack trace:
+#0 /Applications/MAMP/htdocs/EC-Saganb/public_html/pages/order_process.inc.php(131): ctrl_order->save()
+#1 /Applications/MAMP/htdocs/EC-Saganb/public_html/index.php(35): include('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/controllers/ctrl_order.inc.php on line 454
+[15-Mar-2018 17:18:14 America/Mexico_City] Fatal error: Could not find product (ID: 1) in database. in ~/includes/controllers/ctrl_pages_custom.inc.php on line 32
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 8 in load()
+ ← ~/pages/test_index.inc.php on line 2 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:18:48 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1CMS.app/pagesection.inc.php on line 31
+Request: POST /EC-Saganb/public_html/admin/?app=1CMS&doc=pagesection&new=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:19:04 America/Mexico_City] Warning: include_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/functions/func_page.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:19:04 America/Mexico_City] Warning: include_once(): Failed opening '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/functions/func_page.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:19:04 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'page_getHtml' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:19:04 America/Mexico_City] Warning: include(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/templates/default.catalog//views/menu.inc.php): failed to open stream: No such file or directory in ~/includes/templates/ecsaganb.catalog/pages/test_index.inc.php on line 18
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:19:04 America/Mexico_City] Warning: include(): Failed opening '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/templates/default.catalog//views/menu.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in ~/includes/templates/ecsaganb.catalog/pages/test_index.inc.php on line 18
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:19:45 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:19:45 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:20:21 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:20:21 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:21:27 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:21:27 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:23:39 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:23:39 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:23:49 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:23:49 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:23:50 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:23:50 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:23:51 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:23:51 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:24:32 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:24:32 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:24:32 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:24:32 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:24:32 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:24:32 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:24:32 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:26:30 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:26:30 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:26:30 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:26:30 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:26:30 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:26:30 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:26:30 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'form_draw_link_button2' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /EC-Saganb/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:30:15 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:30:15 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:30:16 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:30:16 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:30:16 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:30:16 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:32:25 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:32:25 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:32:26 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:32:26 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:32:27 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:32:27 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:33:15 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:33:15 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:35:38 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:35:38 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:35:40 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:35:40 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:35:40 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:35:40 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:35:40 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:35:40 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
+[15-Mar-2018 17:35:40 America/Mexico_City] Warning: require_once(/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/includes/functions/func_page.inc.php on line 11 in spl_autoload_call()
+ ← ~/includes/library/lib_functions.inc.php on line 10 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /EC-Saganb/public_html/en/test_index HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+[15-Mar-2018 17:35:40 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/EC-Saganb/public_html/includes/classes/components.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.8/lib/php') in /Applications/MAMP/htdocs/EC-Saganb/public_html/includes/autoloader.inc.php on line 38
