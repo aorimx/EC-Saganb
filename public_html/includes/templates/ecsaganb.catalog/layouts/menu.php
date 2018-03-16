@@ -27,12 +27,14 @@
           <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden;">
             <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel navsec">
               <li>
-                <a style="padding: 8px;" class="navbar-brand marca-nocel hidden-xs hidden-sm" href="<?php echo document::ilink('index.php'); ?>"><img style="width:200px;" class="padding-top" src="{snippet:template_path}/images/logos/efirsaNav.png"></a>
+                <a style="padding: 8px;" class="navbar-brand marca-nocel hidden-xs hidden-sm" href="<?php echo document::ilink('index.php'); ?>"><img style="width:200px;" class="padding-top" src="{snippet:template_path}/images/logos/logo.jpg"></a>
               </li>
 
               <!--<li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index.php'); ?>"><span itemprop="name">Inicio</span></a></li>-->
-              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Tienda</span></a></li>
-              <li class="arrow_box padding-top"><a itemprop="url" class="margin-top" href="<?php echo document::ilink('checkout'); ?>"><span itemprop="name"><img src="{snippet:template_path}/images/carrito.png" style="width: 25px;"></span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Nosotros |</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Contacto |</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Tienda |</span></a></li>
+              <li class="arrow_box padding-top"><a itemprop="url" class="margin-top" href="<?php echo document::ilink('checkout'); ?>"><span itemprop="name"><img src="{snippet:template_path}/images/carrito2.png" style="width: 25px;"></span></a></li>
 
               <!--<li class="iconos-menu hidden-xs hidden-sm"><a href="#"><img class="lupaMenu" src="images/lupa.png"></a></li>
               <li class="iconos-menu"><a href="#"><img class="carritoMenu" src="images/carrito.png"></a></li>-->
