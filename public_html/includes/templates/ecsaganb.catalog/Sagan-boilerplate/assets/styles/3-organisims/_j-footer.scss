@@ -63,13 +63,13 @@ a:hover, a:active{
   color: #008129;
 }
 .footer-content{
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   footer {
     width: 100%;
     max-width: 1200px;
-    .grid{ 
+    .grid{
       flex-direction: row;
       .unit.half:last-child{
         padding-right: $space-11;
@@ -102,7 +102,7 @@ a:hover, a:active{
     }
     .copyright-gris{
       width: 28%;
-      .copyright{ 
+      .copyright{
         margin-bottom: 0;
       }
       .copy_subtext{
@@ -118,7 +118,7 @@ a:hover, a:active{
 }
 
 footer{
-    background-color: #58595b;
+    background-color: #D7D7D7;
     background-size: 100%;
     background-position: top;
     padding: 50px 15px 50px;
@@ -299,7 +299,7 @@ footer{
   }
   .container{
     height: auto !important;
-  }    
+  }
 }
 @media screen and (max-width: 600px){
   .redes-footer img{
