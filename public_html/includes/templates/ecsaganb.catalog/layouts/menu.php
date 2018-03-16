@@ -31,11 +31,7 @@
               </li>
 
               <!--<li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index.php'); ?>"><span itemprop="name">Inicio</span></a></li>-->
-              <li class="arrow_box"><a itemprop="url" href="<?php echo  document::ilink('nosotros'); ?>"><span itemprop="name">Nosotros</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('productos'); ?>"><span itemprop="name">Productos</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('certificaciones'); ?>"><span itemprop="name">Certificaciones</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Tienda</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('contacto.php'); ?>"><span itemprop="name">Contacto</span></a></li>
               <li class="arrow_box padding-top"><a itemprop="url" class="margin-top" href="<?php echo document::ilink('checkout'); ?>"><span itemprop="name"><img src="{snippet:template_path}/images/carrito.png" style="width: 25px;"></span></a></li>
 
               <!--<li class="iconos-menu hidden-xs hidden-sm"><a href="#"><img class="lupaMenu" src="images/lupa.png"></a></li>
