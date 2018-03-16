@@ -757,7 +757,7 @@
                                         <table role='presentation' cellpadding='0' cellspacing='0' style='border-collapse:collapse;border-spacing:0' align='center' border='0'>
                                           <tbody>
                                             <tr>
-                                              <td style='width:300px'><img alt='Featuring Authentic Movement, Holographic Simulation, Droid to Droid Experience, and Watch With Me' height='auto' src='http://efirsa.mx/img/logos/logoIndex.png' style='border:none;border-radius:0;display:block;font-size:13px;outline:0;text-decoration:none;width:100%;height:auto'
+                                              <td style='width:300px'><img alt='Featuring Authentic Movement, Holographic Simulation, Droid to Droid Experience, and Watch With Me' height='auto' src='http://ius360.com/wp-content/uploads/2017/06/e-commerce_small.png' style='border:none;border-radius:0;display:block;font-size:13px;outline:0;text-decoration:none;width:100%;height:auto'
                                                   width='300'></td>
                                             </tr>
                                           </tbody>
