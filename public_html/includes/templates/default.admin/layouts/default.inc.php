@@ -17,7 +17,7 @@
 
     <div id="logotype">
       <a href="<?php echo document::href_link(WS_DIR_ADMIN); ?>">
-        <img class="center-block img-responsive" src="../includes/templates/efirsa.catalog/images/logos/EFIRSAtype-01.png" alt="<?php echo settings::get('store_name'); ?>" />
+        <img class="center-block img-responsive" src="{snippet:template_path}images/logo.jpg"  />
       </a>
     </div>
 
@@ -36,15 +36,15 @@
 
     {snippet:box_apps_menu}
 
-    <div id="languages" class="text-center">
+      <div id="languages" class="text-center" style="display:none;">
       <?php foreach (language::$languages as $language) { ?>
       <?php if ($language['status']) { ?><a href="<?php echo document::href_link(null, array('language' => $language['code']), true); ?>"><img src="<?php echo WS_DIR_IMAGES .'languages/'. $language['code'] .'.png'; ?>" alt="<?php echo htmlspecialchars($language['name']); ?>" style="max-width: 16px;" /></a><?php } ?>
       <?php } ?>
     </div>
 
-    <div id="platform" class="text-center"><?php echo PLATFORM_NAME; ?> <?php echo PLATFORM_VERSION; ?></div>
+    <div id="platform" style="display:none;" class="text-center"><?php echo PLATFORM_NAME; ?> <?php echo PLATFORM_VERSION; ?></div>
 
-    <div id="copyright" class="text-center">&copy; <?php echo date('2012-Y'); ?> LiteCart<br />
+    <div id="copyright" style="display:none;" class="text-center">&copy; <?php echo date('2012-Y'); ?> LiteCart<br />
       <a href="http://www.litecart.net" target="_blank">www.litecart.net</a>
     </div>
   </div>
