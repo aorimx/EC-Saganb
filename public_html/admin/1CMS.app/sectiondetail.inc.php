@@ -8,8 +8,8 @@ $(document).ready(function(){
     });
 });
 </script>
-    <div>
-      <ul class="ul-pages">
+    <div style="text-align: right; width:70%; position:fixed;">
+      <ul class="ul-pages" style="list-style:none;">
           <li>
             SELECCIONE UN COMPONENTE
             <i class="fas fa-sort-down"></i>
