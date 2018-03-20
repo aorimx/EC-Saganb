@@ -8,17 +8,17 @@
     </ul>
     <ul>
     <li class="list-title">Productos</li>
-        <a href="productos"><li>- Elevadores corporativos</li></a>
-        <a href="productos"><li>- Elevadores residenciales</li></a>
-        <a href="productos"><li>- Proyectos personalizados</li></a>
-        <a href="productos"><li>- Escaleras eléctricas</li></a>
-        <a href="productos"><li>- Aceras móviles</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
     </ul>
     <ul>
-        <a href="productos"><li class="sub-list">- Aceras móviles</li></a>
-        <a href="productos"><li>- Elevadores domésticos</li></a>
-        <a href="productos"><li>- Montacargas</li></a>
-        <a href="productos"><li>- Apila autos</li></a>
-        <a href="productos"><li>- Accesorios</li></a>
+        <a href="productos"><li class="sub-list">- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
+        <a href="productos"><li>- Lorem ipsum</li></a>
     </ul>
 </div>
