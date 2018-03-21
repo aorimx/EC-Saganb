@@ -66,7 +66,7 @@
 
 <?php echo functions::form_draw_form_begin('template_form', 'post', null, false, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
 
-  <div class="form-group pagesection-form-group">
+  <div class="form-group pagesection-form-group" style="width: 100%;">
     <label for="title" >Language code</label>
     <?php echo functions::form_draw_input('language_code',$page->data['language_code']); ?>
     <label for="title" >Title</label>
