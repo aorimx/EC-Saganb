@@ -1,4 +1,4 @@
-<div> <!-- Esta etiqueta solo es para la previsualizaciòn del HTML, hay que eliminarla -->
+<div style="width:100%;"> <!-- Esta etiqueta solo es para la previsualizaciòn del HTML, hay que eliminarla -->
     <?php
         //echo 'Some extra var 1: ' . $some_extra_var_1 . '<br>';
         //echo 'Some extra var 2: ' . $some_extra_var_2 . '<br>';
@@ -15,5 +15,4 @@
       </div>
       </div>
 
-		  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/menu.inc.php'); ?>
 </div>
