@@ -31,7 +31,7 @@
               </li>
 
               <!--<li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index.php'); ?>"><span itemprop="name">Inicio</span></a></li>-->
-              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Nosotros |</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('test_index.php'); ?>"><span itemprop="name">Nosotros |</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Contacto |</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Tienda |</span></a></li>
               <li class="arrow_box padding-top"><a itemprop="url" class="margin-top" href="<?php echo document::ilink('checkout'); ?>"><span itemprop="name"><img src="{snippet:template_path}/images/carrito2.png" style="width: 25px;"></span></a></li>
