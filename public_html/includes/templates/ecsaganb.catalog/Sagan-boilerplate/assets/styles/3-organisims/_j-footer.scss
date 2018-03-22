@@ -89,7 +89,7 @@ a:hover, a:active{
     padding-left: $space-11;
 }
 .gris-footer{
-  background-color: #d8d8d8;
+  background-color: #ADD8E6;
   padding-top: $space-base;
   width: 100%;
   max-width: 1200px;
@@ -118,7 +118,7 @@ a:hover, a:active{
 }
 
 footer{
-    background-color: #D7D7D7;
+    background-color: #ADD8E6;
     background-size: 100%;
     background-position: top;
     padding: 50px 15px 50px;
@@ -126,6 +126,7 @@ footer{
 .p-footer{
   font-size: 18px;
   margin-top: $space-4;
+  color: #6c6c6d;
 }
 .redes-footer{
   width: 100%;
@@ -184,7 +185,7 @@ footer{
     margin: 0;
     font-size: 18px;
     a{
-      color: white;
+      color: #6c6c6d;
     }
     i{
       color: #c2c3c5;
@@ -192,7 +193,7 @@ footer{
     }
 }
 .derecha-footer a:hover, .derecha-footer a{
-  color: white;
+  color: #6c6c6d;
 }
 .area-ventas{
   color: #c2c3c5 !important;
